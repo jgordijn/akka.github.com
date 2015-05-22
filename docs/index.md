@@ -26,7 +26,7 @@ title: Akka Documentation
 * Akka API - for [Java](http://doc.akka.io/japi/akka/2.2.5/) and [Scala](http://doc.akka.io/api/akka/2.2.5/)
 
 ## Milestone Versions
- 
+
 ### Akka 2.4-M1 (pre-release of what is going to become Akka 2.4) for Scala 2.11 / 2.12.0-M1 and Java 8+
 
 * Akka Documentation
@@ -56,8 +56,10 @@ The current version of the release candidate for the upcoming Akka Streams and H
 * The artifacts are available on Maven Central (for use with `scala-library.jar` version `2.11.x`):
   * `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "1.0-RC3"`
   * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "1.0-RC3"`
-  * `"com.typesafe.akka" % "akka-http-scala-experimental_2.11" % "1.0-RC3"` (for Scala DSL)
-  * `"com.typesafe.akka" % "akka-http-java-experimental_2.11" % "1.0-RC3"` (for Java DSL)
+  * `"com.typesafe.akka" % "akka-http-experimental_2.11" % "1.0-RC3"`
+  * `"com.typesafe.akka" % "akka-http-testkit-experimental_2.11" % "1.0-RC3"`
+  * `"com.typesafe.akka" % "akka-http-spray-json-experimental_2.11" % "1.0-RC3"`
+  * `"com.typesafe.akka" % "akka-http-xml-experimental_2.11" % "1.0-RC3"`
 
 
 * similarily artifacts for use with `scala-library.jar` version `2.10.x`, are available as:
